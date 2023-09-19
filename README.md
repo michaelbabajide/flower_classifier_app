@@ -4,3 +4,35 @@ This command-line application is designed to train a neural network on a dataset
 
 - `train.py` for training a model and saving it as a checkpoint, and
 - `predict.py` for predicting the class of an image using a trained model checkpoint.
+
+## Content
+
+- [Requirements](#requirements)
+- [Usage](#usage)
+    - [Training](#training)
+    - [Prediction](#prediction)
+- [Options](#options)
+- [Files](#files)
+- [License](#license)
+
+## Requirements
+
+The application requires Python 3.9 or higher and the following Python libraries:
+
+- PyTorch
+- torchvision
+- NumPy
+- Pillow (PIL)
+- Argparse
+
+## Usage
+
+### Training
+
+### Prediction
+
+## Options
+
+## Files
+
+## License
