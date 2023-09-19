@@ -1,1 +1,2 @@
-# Image Classifier
+# Flower Classifier Command Line Application
+
