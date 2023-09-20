@@ -29,10 +29,10 @@ The application requires Python 3.9 or higher and the following Python libraries
 ### Training
 
 To train the a new neural networ, use 'train.py' with the following commands:
-    
-    ```bash
-    python train.py data_directory
-    ```
+
+``` bash
+python train.py data_directory
+```
 
 ### Prediction
 
