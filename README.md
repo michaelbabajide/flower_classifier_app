@@ -57,6 +57,21 @@ python predict.py image_path checkpoint_path [--top_k 5] [--category_names 'cat_
 
 ## Options
 
+You can customise your training by doing any of the following:
+
+- You can choose different model architectures by specifying '--arch'. Supported model architectures include 'vgg', 'alexnet', and 'densenet'
+- Adjust the learning rate with '--learning_rate' to control the training process.
+- Adjust the number of hidden units in the classifier with '--hidden_units'
+- Set the number of training epochs with '--epochs'
+- Utilise the '--gpu' flag to enable GPU acceleration for both training and prediction.
+
 ## Files
 
+- **train.py**: script for training a new neural network model
+- **predict.py**: script for predicting the class of a flower image using a saved model checkpoint
+- **model.py**: script containing functions for building, loading, and predicting with the neural network model
+- **utils.py**: script containing utility functions for data loading and image preprocessing
+- **cat_to_name.json**: JSON file mapping category indices to real flower names
+
 ## License
+
