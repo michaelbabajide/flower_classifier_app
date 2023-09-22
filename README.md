@@ -21,7 +21,6 @@ The application requires Python 3.9 or higher and the following Python libraries
 
 - PyTorch
 - torchvision
-- NumPy
 - Pillow (PIL)
 
 ## Usage
@@ -51,6 +50,10 @@ python predict.py image_path checkpoint_path [--top_k 5] [--category_names 'cat_
 ```
 
 - 'image_path': Path to the image file for prediction.
+- 'checkpoint_path': Path to the saved model checkpoint file.
+- 'top_k' (Optional): Number of top most likely classes to return. Default is 5.
+- 'category_names' (Optional): Path to a JSON file mapping the class values to real flower names. Default is 'cat_to_name.json'.
+- 'gpu' (Optional): Use GPU for inference. Default is False.
 
 ## Options
 
